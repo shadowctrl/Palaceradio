@@ -1,0 +1,16 @@
+@import "../../app/globals.scss";
+
+.navbar-components {
+    display: flex;
+    border: 1px solid black;
+    box-shadow: inset 0 0 1vw 1px #606060;
+    a {
+        text-transform: uppercase;
+        padding: 1.5vh 1vw;
+        border-right: 1px solid #b0b0b0;
+        font-size: 11px;
+        font-family: $global-font;
+        color: #606060;
+        font-weight: bold;
+    }
+}

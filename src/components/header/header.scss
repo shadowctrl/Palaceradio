@@ -1,0 +1,15 @@
+@import "../../app/globals.scss";
+
+.header-main {
+    background-color: skyblue;
+    font-family: $global-font;
+    color: white;
+    padding: 3vh 2vw;
+    h1 {
+        text-transform: uppercase;
+        font-size: 29px;
+    }
+    P {
+        font-size: 19px;
+    }
+}
