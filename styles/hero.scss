@@ -1,0 +1,44 @@
+@import "../src/app/globals.scss";
+
+.Hero-container {
+    display: flex;
+    padding: 2vh 1vw;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: $global-font;
+}
+
+.side-panel-container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    h1 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+.side-panel-list {
+    padding-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    li {
+        display: flex;
+        align-items: center;
+        border: 1px solid #b0b0b0;
+        width: 150px;
+
+        background: #e8e9ea;
+        a {
+            padding: 5px 4px 4px 10px;
+            color: #606060;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 10px;
+        }
+    }
+}
+.btmImage {
+    padding: 5px;
+    border: 1px solid black;
+}

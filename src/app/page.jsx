@@ -1,9 +1,20 @@
-const Page = ({}) => {
+import "../../styles/hero.scss";
+import SideFooter from "../components/sideFooter/sideFooter";
+import SidePanel from "../components/sidePanel/sidePanel";
+const Hero = ({}) => {
   return (
-    <div>
-      <h1>hello</h1>
-    </div>
+    <main>
+      <div className="Hero-container">
+        <div className="hero-side-panel">
+          <SidePanel btmImg={"/1.jpg"} />
+        </div>
+        <div className="hero-center"></div>
+        <div className="hero-side-footer">
+          <SideFooter />
+        </div>
+      </div>
+    </main>
   );
 };
 
-export default Page;
+export default Hero;
