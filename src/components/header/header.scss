@@ -1,7 +1,23 @@
 @import "../../app/globals.scss";
 
 .header-main {
-    background-color: skyblue;
+    &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -2;
+        background-image: url("/header_bg.jpg");
+    }
+    &:before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        opacity: 0.2;
+        background: black;
+    }
+    position: relative;
+    z-index: 1;
     font-family: $global-font;
     color: white;
     padding: 3vh 2vw;
