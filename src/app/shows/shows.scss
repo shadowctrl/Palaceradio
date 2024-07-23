@@ -1,0 +1,32 @@
+.shows-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+
+    p {
+        font-size: 11px;
+        color: #2a2a2a;
+    }
+    h1 {
+        font-size: 18px;
+        font-weight: bold;
+        color: #606060;
+    }
+    span {
+        font-weight: bold;
+    }
+    img {
+        padding: 3px;
+        border: 1px solid black;
+    }
+    .shows-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+    .shows-item-container {
+        display: grid;
+        gap: 1vw;
+        grid-template-columns: max-content auto;
+    }
+}
