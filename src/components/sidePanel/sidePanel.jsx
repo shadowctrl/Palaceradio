@@ -16,13 +16,13 @@ const SidePanel = ({ btmImg, btmPara }) => {
             <Link href="/sponsors">sponsors</Link>
           </li>
           <li>
-            <Link href="/">music</Link>
+            <Link href="/music">music</Link>
           </li>
           <li>
-            <Link href="/">shows</Link>
+            <Link href="/shows">shows</Link>
           </li>
           <li>
-            <Link href="/">about palace radio</Link>
+            <Link href="/aboutus">about palace radio</Link>
           </li>
         </ul>
       </div>
