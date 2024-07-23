@@ -1,0 +1,33 @@
+.sponsors-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    h1 {
+        font-size: 18px;
+        font-weight: bold;
+        color: #606060;
+    }
+    p {
+        font-size: 11px;
+        color: #2a2a2a;
+    }
+
+    a {
+        color: #2a2a2a;
+        font-weight: bold;
+        font-size: 11px;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    img {
+        padding: 3px;
+        border: 1px solid black;
+    }
+}
+
+.sponsors-item {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    align-items: center;
+}
