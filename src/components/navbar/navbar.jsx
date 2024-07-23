@@ -20,19 +20,19 @@ const Navbar = ({}) => {
         <Link id="nav-item" href="/onair">
           on-air
         </Link>
-        <Link id="nav-item" href="/">
+        <Link id="nav-item" href="/shows">
           shows
         </Link>
-        <Link id="nav-item" href="/">
+        <Link id="nav-item" href="/team">
           team
         </Link>
-        <Link id="nav-item" href="/">
+        <Link id="nav-item" href="/links">
           links
         </Link>
-        <Link id="nav-item" href="/">
+        <Link id="nav-item" href="/faqs">
           faqs
         </Link>
-        <Link id="nav-item" href="/">
+        <Link id="nav-item" href="/contactus">
           contact us
         </Link>
       </div>
