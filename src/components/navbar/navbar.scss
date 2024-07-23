@@ -13,4 +13,11 @@
         color: #606060;
         font-weight: bold;
     }
+    a:hover {
+        background-color: rgb(255, 0, 0, 0.1);
+    }
+}
+
+.navbar-h2-active {
+    background-color: rgb(255, 0, 0, 0.1);
 }
