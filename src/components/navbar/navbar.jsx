@@ -1,16 +1,16 @@
-"use client";
+// "use client";
 import "./navbar.scss";
 import Link from "next/link";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 const Navbar = ({}) => {
-  useEffect(() => {
-    const navLinks = document.querySelectorAll("#nav-item");
-    navLinks.forEach((link) => {
-      if (link.pathname === window.location.pathname)
-        link.classList.add("navbar-h2-active");
-    });
-  }, []);
+  // useEffect(() => {
+  //   const navLinks = document.querySelectorAll("#nav-item");
+  //   navLinks.forEach((link) => {
+  //     if (link.pathname === window.location.pathname)
+  //       link.classList.add("navbar-h2-active");
+  //   });
+  // }, []);
   return (
     <div className="navbar-main">
       <div className="navbar-components">
