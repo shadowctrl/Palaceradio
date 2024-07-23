@@ -1,0 +1,26 @@
+.team-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding: 2vh 0;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    h1 {
+        font-weight: bold;
+        color: #606060;
+        font-size: 18px;
+    }
+    .team-item-sub {
+        padding-left: 2vw;
+        display: flex;
+        align-items: flex-start;
+        gap: 2vw;
+        p {
+            font-size: 11px;
+        }
+    }
+}
