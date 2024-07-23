@@ -6,7 +6,12 @@ const Hero = ({}) => {
     <main>
       <div className="Hero-container">
         <div className="hero-side-panel">
-          <SidePanel btmImg={"/1.jpg"} />
+          <SidePanel
+            btmImg={"/1.jpg"}
+            btmPara={
+              "John Burgess, James Daly and Ian King bring you the Palace Radio news each matchday."
+            }
+          />
         </div>
         <div className="hero-center"></div>
         <div className="hero-side-footer">

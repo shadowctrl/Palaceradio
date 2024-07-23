@@ -28,7 +28,7 @@ const SidePanel = ({ btmImg, btmPara }) => {
       </div>
       <div className="side-panel-container2">
         <h2>behind the mic</h2>
-        <Image src={btmImg} width={130} height={130} className="btmImage" />
+        <Image src={btmImg} width={150} height={150} className="btmImage" />
         <p>{btmPara}</p>
       </div>
     </div>
