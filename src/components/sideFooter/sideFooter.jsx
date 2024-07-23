@@ -29,11 +29,19 @@ const SideFooter = ({ sfPara, sfH3, sfTitle }) => {
       <div className="sf-links">
         <h2>Links</h2>
         <div>
-          <Link href="/">CPFC Site</Link>
-          <Link href="/">Palace Echo</Link>
-          <Link href="/">CPFC.org</Link>
-          <Link href="/">Soccerbase</Link>
-          <Link href="/">Other Links</Link>
+          <Link href="http://www.cpfc.co.uk/" target="_blank">
+            CPFC Site
+          </Link>
+          <Link href="http://www.palace-echo.net/" target="_blank">
+            Palace Echo
+          </Link>
+          <Link href="http://www.cpfc.org/" target="_blank">
+            CPFC.org
+          </Link>
+          <Link href="http://www.soccerbase.com/" target="_blank">
+            Soccerbase
+          </Link>
+          <Link href="/links">Other Links</Link>
         </div>
       </div>
     </div>

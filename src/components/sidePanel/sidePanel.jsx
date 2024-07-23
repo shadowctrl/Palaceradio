@@ -8,7 +8,7 @@ const SidePanel = ({ btmImg, btmPara }) => {
         <h1>Features</h1>
         <ul className="side-panel-list">
           <li>
-            <Link href="/" className="side-panel-item">
+            <Link href="/podcasts" className="side-panel-item">
               podcasts
             </Link>
           </li>
