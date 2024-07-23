@@ -144,6 +144,7 @@ const Page = ({}) => {
       sfPara={sfPara}
       sfH3={sfH3}
       center={<Center />}
+      sfTitle={"Next Broadcast"}
     />
   );
 };

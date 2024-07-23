@@ -1,0 +1,68 @@
+.onair-section1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    h1 {
+        color: red;
+    }
+    p {
+        font-size: 11px;
+        color: #2a2a2a;
+    }
+    span {
+        padding: 0 3px;
+        font-weight: bold;
+        color: #5a5a5a;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.onair-section2 {
+    width: 100%;
+    background-color: rgb(128, 128, 128, 0.1);
+    margin-top: 2vh;
+    padding: 4vh 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+
+    h3 {
+        font-size: 18px;
+        color: #1a1a1a;
+        font-weight: bold;
+    }
+
+    button {
+        background-color: #ed4036;
+        padding: 1vh 1vw;
+        color: white;
+        border-radius: 0.5vw;
+        font-size: 13px;
+    }
+}
+
+.oneair-mixin-p {
+    font-weight: bold;
+    font-size: 11px;
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.onair-section3 {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding-top: 2vh;
+    h2 {
+        color: blue;
+    }
+
+    p {
+        font-size: 11px;
+    }
+}

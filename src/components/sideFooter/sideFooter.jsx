@@ -2,14 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { SocialIcon } from "react-social-icons";
 
-const SideFooter = ({ sfPara, sfH3 }) => {
+const SideFooter = ({ sfPara, sfH3, sfTitle }) => {
   return (
     <div className="sf-parent">
       <div className="sf-head">
         <div className="sf-head-img">
           <Image src={"/sf1.gif"} width={120} height={140}></Image>
         </div>
-        <h2>next broadcast</h2>
+        <h2>{sfTitle}</h2>
         <div>
           <h3>{sfH3}</h3>
           <p>{sfPara}</p>
