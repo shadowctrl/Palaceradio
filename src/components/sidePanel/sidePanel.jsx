@@ -21,6 +21,33 @@ const SidePanel = ({ btmImg, btmPara, shows }) => {
           <li>
             <Link href="/shows">shows</Link>
           </li>
+          {shows ? (
+            <div className="shows-true">
+              <li>
+                <Link href="/breakfast">breakfast</Link>
+              </li>{" "}
+              <li>
+                <Link href="/news">news hour</Link>
+              </li>{" "}
+              <li>
+                <Link href="/onetwo">The old one-Two</Link>
+              </li>{" "}
+              <li>
+                <Link href="/countdown">countdown</Link>
+              </li>{" "}
+              <li>
+                <Link href="/commentary">commentary</Link>
+              </li>{" "}
+              <li>
+                <Link href="/reaction">Reaction to the action</Link>
+              </li>
+              <li>
+                <Link href="/drive">Drivetime</Link>
+              </li>
+            </div>
+          ) : (
+            ""
+          )}
           <li>
             <Link href="/aboutus">about palace radio</Link>
           </li>
