@@ -1,6 +1,5 @@
 import Hero from "@/components/hero/hero";
 import "./team.scss";
-import Link from "next/link";
 import Image from "next/image";
 
 const data = [
