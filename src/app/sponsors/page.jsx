@@ -11,8 +11,9 @@ const Center = () => {
 
       <p>
         We are interested in hearing from prospective sponsors. Please download
-        our Information Pack or contact us to discuss your requirements and
-        ideas.
+        our <Link href="/informationPack.pdf"> Information Pack </Link> or{" "}
+        <Link href="/contactus">contact us</Link> to discuss your requirements
+        and ideas.
       </p>
 
       <p>
