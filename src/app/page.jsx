@@ -1,25 +1,12 @@
-import "../../styles/hero.scss";
-import SideFooter from "../components/sideFooter/sideFooter";
-import SidePanel from "../components/sidePanel/sidePanel";
-const Hero = ({}) => {
+import Hero from "@/components/hero/hero";
+
+const sfPara = `Saturday 14th March 2015. Barclays Premier League: Crystal Palace vs QPR. Kick off is 12:45pm, shows start at 11am. AVAILABLE VIA THIS WEBSITE, PALACE PLAYER & EAGLES RBS APP.`;
+const sfH3 = "2024/2025:";
+const btmPara = `John Burgess, James Daly and Ian King bring you the Palace Radio news each matchday.`;
+const Page = ({}) => {
   return (
-    <main>
-      <div className="Hero-container">
-        <div className="hero-side-panel">
-          <SidePanel
-            btmImg={"/1.jpg"}
-            btmPara={
-              "John Burgess, James Daly and Ian King bring you the Palace Radio news each matchday."
-            }
-          />
-        </div>
-        <div className="hero-center"></div>
-        <div className="hero-side-footer">
-          <SideFooter />
-        </div>
-      </div>
-    </main>
+    <Hero btmImg={"/1.jpg"} btmPara={btmPara} sfPara={sfPara} sfH3={sfH3} />
   );
 };
 
-export default Hero;
+export default Page;
