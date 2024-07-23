@@ -79,6 +79,7 @@ const Page = ({}) => {
       sfH3={sfH3}
       center={<Center />}
       sfTitle={sfTitle}
+      shows={true}
     />
   );
 };

@@ -1,12 +1,24 @@
 import "../../../styles/hero.scss";
 import SideFooter from "../sideFooter/sideFooter";
 import SidePanel from "../sidePanel/sidePanel";
-const Hero = ({ btmImg, btmPara, sfPara, sfH3, center, sfTitle }) => {
+const Hero = ({
+  btmImg,
+  btmPara,
+  sfPara,
+  sfH3,
+  center,
+  sfTitle,
+  shows = false,
+}) => {
   return (
     <main>
       <div className="Hero-container">
         <div className="hero-side-panel">
-          <SidePanel btmImg={btmImg} btmPara={btmPara} />
+          {shows ? (
+            <SidePanel shows={shows} />
+          ) : (
+            <SidePanel btmImg={btmImg} btmPara={btmPara} />
+          )}
         </div>
         <div className="hero-center">{center}</div>
         <div className="hero-side-footer">

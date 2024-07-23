@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const SidePanel = ({ btmImg, btmPara }) => {
+const SidePanel = ({ btmImg, btmPara, shows }) => {
   return (
     <div className="side-panel-parent">
       <div className="side-panel-container1">
@@ -26,11 +26,15 @@ const SidePanel = ({ btmImg, btmPara }) => {
           </li>
         </ul>
       </div>
-      <div className="side-panel-container2">
-        <h2>behind the mic</h2>
-        <Image src={btmImg} width={150} height={150} className="btmImage" />
-        <p>{btmPara}</p>
-      </div>
+      {shows ? (
+        ""
+      ) : (
+        <div className="side-panel-container2">
+          <h2>behind the mic</h2>
+          <Image src={btmImg} width={150} height={150} className="btmImage" />
+          <p>{btmPara}</p>
+        </div>
+      )}
     </div>
   );
 };
