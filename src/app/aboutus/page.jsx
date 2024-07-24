@@ -22,10 +22,7 @@ const Center = () => {
       <p>
         Love alone won't keep Palace Radio on-air and we are indebted to our
         sponsors, both present, and past who have supported us over the years,
-        special mentions must go to Dave & Jackie Pinto at{" "}
-        <Link target="_blank" href="http://www.tudorpark.com/">
-          Tudor Park Estates{" "}
-        </Link>
+        special mentions must go to Dave & Jackie Pinto at Tudor Park Estates{" "}
         whose support enabled us most significantly to refurbish the studio and
         get the station back on-line.
       </p>
