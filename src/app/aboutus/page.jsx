@@ -37,9 +37,9 @@ const Center = () => {
           wrappz.com{" "}
         </Link>{" "}
         and{" "}
-        <Link target="_blank" href="http://www.hmv.com/">
+        <Link target="_blank" href="https://aiforeveryone.org/">
           {" "}
-          HMV{" "}
+          aiforeveryone{" "}
         </Link>{" "}
         not least for providing some great prizes for you.
       </p>

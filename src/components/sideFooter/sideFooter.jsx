@@ -35,8 +35,8 @@ const SideFooter = ({ sfPara, sfH3, sfTitle }) => {
           <Link href="http://www.cpfc.co.uk/" target="_blank">
             CPFC Site
           </Link>
-          <Link href="http://www.palace-echo.net/" target="_blank">
-            Palace Echo
+          <Link href="http://goal360.tv/" target="_blank">
+            Goal360
           </Link>
           <Link href="http://www.cpfc.org/" target="_blank">
             CPFC.org

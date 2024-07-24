@@ -26,6 +26,13 @@ const Center = () => {
               </Link>{" "}
               the biggest on-line fans' forum.
             </p>
+            <p>
+              <Link href="https://goal360.tv/" target="_blank">
+                Goal360{" "}
+              </Link>
+              , a football news magazine, run by the fans and with a special
+              focus on the Premier League.
+            </p>
           </div>
           <div className="links-section2-container">
             <h2>Palace Radio Charity Links</h2>
