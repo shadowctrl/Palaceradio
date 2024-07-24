@@ -43,6 +43,7 @@ const Center = () => {
           target="_blank"
           href="http://www.justgiving.com/CPFCFansWalk2Reading"
         >
+          {" "}
           Just Giving
         </Link>{" "}
         page and help the team smash the �5,000 target.{" "}

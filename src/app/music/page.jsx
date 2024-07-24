@@ -33,10 +33,11 @@ const Center = () => {
             <p>
               Follow Lucy Hopes on
               <Link
-                href="https://web.archive.org/web/20131030102057/http://www.facebook.com/pages/Lucy-Hopes/161909110533770"
+                href="http://www.facebook.com/pages/Lucy-Hopes/161909110533770"
                 target="_blank"
               >
-                Facebook.{" "}
+                {" "}
+                Facebook.
               </Link>
             </p>
           </div>

@@ -40,7 +40,10 @@ const Center = () => {
       <div className="onair-section2">
         <Image src="/onair-mixin.svg" width="120" height="40" />
         <h3>Professional live audio made simple.</h3>
-        <button>Are you an audio creator?</button>
+        <Link href="https://mixlr.com/palaceradio" target="_blank">
+          {" "}
+          <button>Are you an audio creator?</button>
+        </Link>
       </div>
       <p className="oneair-mixin-p">
         <Link target="_blank" href="http://mixlr.com/palaceradio">

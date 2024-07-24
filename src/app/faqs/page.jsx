@@ -36,13 +36,11 @@ b) Palace Radio is run by love rather than money, by unpaid staff, so this is no
   },
   {
     Q: "5) Can I sponsor the station?",
-    A: `a) We are interested in hearing from prospective sponsors. Please download our <a href={" /
-      informationPack.pdf"}> Information Pack</a> or <a href=" /
-      contactus">  contact us </a> to discuss your requirements and ideas.`,
+    A: `a) We are interested in hearing from prospective sponsors. Please check our <a href="/links"> Links Page</a> or <a href="/contactus"> contact us </a> to discuss your requirements and ideas.`,
   },
   {
     Q: "6) Can I air my views on the Palace Radio website?",
-    A: "a) Simply,no! This site is to inform you about Palace Radio, which in itself is a medium for uncensored debate. On-line locations for this are ably hosted elsewhere and these are listed on the <a href=`/links`> Links Page. </a> <br/> <br/> b) Feedback on Palace Radio is always welcome - <a href=`/contactus`>  contact us </a>",
+    A: `a) Simply,no! This site is to inform you about Palace Radio, which in itself is a medium for uncensored debate. On-line locations for this are ably hosted elsewhere and these are listed on the <a href="/links"> Links Page. </a> <br/> <br/> b) Feedback on Palace Radio is always welcome - <a href="/contactus">  contact us </a>`,
   },
   {
     Q: "7) Why do the presenters sometimes sound so negative?",

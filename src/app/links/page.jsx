@@ -8,81 +8,87 @@ const Center = () => {
     <div className="links-parent">
       <div className="links-head">
         <Image src="/links_title.jpg" width="175" height="190" />
+
         <div className="links-container">
-          <p>
-            {" "}
-            <Link href="http://www.cpfc.co.uk/" target="_blank">
-              Official Crystal Palace FC Website{" "}
-            </Link>
-            for latest club news and the Palace Player service.{" "}
-          </p>
-          <p>
-            {" "}
-            <Link target="_blank" href="http://www.studycentrecpfc.org.uk/">
-              The CPFC Study Centre{" "}
-            </Link>
-            club, community & education.
-          </p>
-          <p>
-            {" "}
-            <Link target="_blank" href="http://www.cpfc.org/">
-              cpfc.org "The BBS"{" "}
-            </Link>{" "}
-            the biggest on-line fans' forum.
-          </p>
-          <p>
-            {" "}
-            <Link target="_blank" href="http://www.holmesdale.net/">
+          <div className="links-head-head">
+            <p>
               {" "}
-              The Holmesdale On-line
-            </Link>
-            comprehensive site with news, views and forum.
-          </p>
-          <p>
-            {" "}
-            <Link target="_blank" href="http://palace-echo.net/">
+              <Link href="http://www.cpfc.co.uk/" target="_blank">
+                Official Crystal Palace FC Website{" "}
+              </Link>
+              for latest club news and the Palace Player service.{" "}
+            </p>
+
+            <p>
               {" "}
-              The Palace Echo
-            </Link>
-            formerly CPFC's longest running fanzine now online.
+              <Link target="_blank" href="http://www.cpfc.org/">
+                cpfc.org "The BBS"{" "}
+              </Link>{" "}
+              the biggest on-line fans' forum.
+            </p>
+          </div>
+          <div className="links-section2-container">
+            <h2>Palace Radio Charity Links</h2>
+            <p>
+              <span>Crystal Palace Supporters Children's Charity</span> Raising
+              money for the annual Christmas party and match day box at Selhurst
+              Park.
+            </p>
+            <p>
+              If you are planning on raising money for good causes please get in
+              touch, we would love to hear from you and spread the word on
+              Palace Radio.
+            </p>
+          </div>
+          <div className="links-section2-container">
+            <h2>Links To Radio Sites</h2>
+            <p>
+              <span>
+                <Link
+                  href="http://www.bbc.co.uk/news/england/london/"
+                  target="_blank"
+                >
+                  BBC Radio 94.9FM in London{" "}
+                </Link>
+              </span>{" "}
+              provider of top football coverage and away match commentary for
+              Palace Player.
+            </p>
+            {/* <p>
+            <span>
+              <Link href="http://www.mediauk.com/" target="_blank">
+                Media UK
+              </Link>
+            </span>
+            comprehensive directory of all the UK's media.
           </p>
           <p>
-            {" "}
-            <Link target="_blank" href="http://www.fiveyearplanfanzine.co.uk/">
-              Five Year Plan Fanzine{" "}
-            </Link>
-            alternative fanzine available throughout the season. Writers include
-            Palace Radio commentator Darryl Murdoch.
-          </p>
-          <p>
-            {" "}
-            <Link href="http://www.cpstrust.org.uk/">
-              Crystal Palace Supporters Trust{" "}
-            </Link>
-            supporters' group promoting the interests of fans and the club.
-          </p>
+            <span>
+              <Link href="http://www.xfm.co.uk/" targey="_blank">
+                XFM
+              </Link>
+            </span>
+            new music station in London, Manchester & Scotland.
+          </p> */}
+          </div>
         </div>
       </div>
 
       <div className="links-section2">
-        <div className="links-section2-container">
+        {/* <div className="links-section2-container">
           <h2>Palace Radio Charity Links</h2>
           <p>
-            <span>
-              <Link href="http://www.tapitlocal.com/cpscc/" target="_blank">
-                Crystal Palace Supporters Children's Charity
-              </Link>
-            </span>{" "}
-            Raising money for the annual Christmas party and match day box at
-            Selhurst Park.
+            <span>Crystal Palace Supporters Children's Charity</span> Raising
+            money for the annual Christmas party and match day box at Selhurst
+            Park.
           </p>
           <p>
             If you are planning on raising money for good causes please get in
             touch, we would love to hear from you and spread the word on Palace
             Radio.
           </p>
-        </div>
-        <div className="links-section2-container">
+        </div> */}
+        {/* <div className="links-section2-container">
           <h2>Travel Groups, UK & Worldwide Fan Clubs</h2>
           <p>
             <span>
@@ -101,52 +107,7 @@ const Center = () => {
             </span>
             supplying a taste of home to those exiled in Canada.
           </p>
-        </div>
-        <div className="links-section2-container">
-          <h2>Links To Radio Sites</h2>
-          <p>
-            <span>
-              <Link
-                href="http://www.bbc.co.uk/news/england/london/"
-                target="_blank"
-              >
-                BBC Radio 94.9FM in London{" "}
-              </Link>
-            </span>{" "}
-            provider of top football coverage and away match commentary for
-            Palace Player.
-          </p>
-          <p>
-            <span>
-              <Link href="http://www.mediauk.com/" target="_blank">
-                Media UK
-              </Link>
-            </span>
-            comprehensive directory of all the UK's media.
-          </p>
-          <p>
-            <span>
-              <Link href="http://www.xfm.co.uk/" targey="_blank">
-                XFM
-              </Link>
-            </span>
-            new music station in London, Manchester & Scotland.
-          </p>
-        </div>
-        <div className="links-section2-container">
-          <h2>Special Links</h2>
-          <p>
-            Palace Radio presenter{" "}
-            <span>
-              {" "}
-              <Link href="http://www.billrelyea.co.uk/" target="_blank">
-                {" "}
-                Bill Relyea{" "}
-              </Link>{" "}
-            </span>{" "}
-            is a professional after-dinner speaker and stand-up comedian.
-          </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

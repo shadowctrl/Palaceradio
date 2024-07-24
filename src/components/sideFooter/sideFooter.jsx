@@ -18,8 +18,11 @@ const SideFooter = ({ sfPara, sfH3, sfTitle }) => {
       <div className="sf-sm">
         <h2>social media</h2>
         <div>
-          <SocialIcon url="https://x.com/palaceradio" />
-          <SocialIcon url="https://www.facebook.com/palaceradio" />
+          <SocialIcon url="https://x.com/palaceradio" target="_blank" />
+          <SocialIcon
+            url="https://www.facebook.com/palaceradio"
+            target="_blank"
+          />
         </div>
         <Link href="https://mypalacenews.com" target="_blank">
           {" "}

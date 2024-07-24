@@ -33,7 +33,7 @@ const Center = () => {
               Palace Radio is now available via the Eagles RBS app for both
               iPhone and Andriod.
             </p>
-            <h3>
+            {/* <h3>
               <Link
                 href="https://play.google.com/store/apps/details?id=com.conduit.app_7954f32a45584af9ad93af3e7b321900.app"
                 target="_blank"
@@ -49,7 +49,7 @@ const Center = () => {
               >
                 CLICK HERE TO DOWNLOAD EAGLES RBS ON ANDRIOD.
               </Link>
-            </h3>
+            </h3> */}
             <p>
               In addition to our matchday coverage, each week Palace Radio will
               bring you exclusive interviews with the men that matter at

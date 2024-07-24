@@ -32,45 +32,48 @@ const Center = () => {
       >
         iTunes Series Link
       </Link>
-      <Link
+      {/* <Link
         href="http://cheerfulworld.jellycast.com/podcast/feed/2"
         target="_blank"
       >
         Link for your chosen Feed Reader{" "}
-      </Link>
+      </Link> */}
       <h1>Featured interviews: listen again</h1>
       <p>
         Swansea Reaction to the action
         <br /> <br />
         Reaction to the action starts after the 2nd half commentary at 53:00
       </p>
-      <Link
+      {/* <Link
         href="http://www.palaceradio.net/audio/swanseareaction.mp3"
         target="_blank"
-      >
-        CLICK HERE: Reaction to the Action Crystal Palace vs Swansea City
-      </Link>
+      > */}
+      <span> Reaction to the Action Crystal Palace vs Swansea City</span>
+      {/* </Link> */}
       <p>
         Jerry Clark spoke to Crystal Palace Co-Chairman Steve Browett an hour
         before the Eagles took on Swansea City.
       </p>
-      <Link
-        href="http://www.palaceradio.net/audio/SBSwansea.mp3"
+      <span>
+        {/*<Link href="http://www.palaceradio.net/audio/SBSwansea.mp3"
         target="_blank"
-      >
-        CLICK HERE: Palace Radio with Steve Browett
-      </Link>
+      > */}
+        Palace Radio with Steve Browett
+        {/* </Link> */}
+      </span>
       <p>
         We spoke to Sky Sports Commentators Gary Taphouse and former Palace
         midfielder & Assistant Manager Ray Houghton before the Eagles took on
         Swansea City.
       </p>
-      <Link
+      <span>
+        {/* <Link
         href="https://web.archive.org/web/20131030095902/http://www.palaceradio.net/audio/SkySwansea.mp3"
         target="_blank"
-      >
-        CLICK HERE: Ray Houghton and Gary Taphouse Interview
-      </Link>
+      > */}
+        Ray Houghton and Gary Taphouse Interview
+        {/* </Link> */}
+      </span>
     </div>
   );
 };

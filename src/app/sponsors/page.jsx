@@ -10,8 +10,8 @@ const Center = () => {
       <p> Please support our sponsors. Start by visiting their websites.</p>
 
       <p>
-        We are interested in hearing from prospective sponsors. Please download
-        our <Link href="/informationPack.pdf"> Information Pack </Link> or{" "}
+        We are interested in hearing from prospective sponsors. Please check our{" "}
+        <Link href="/links"> Links Page </Link> or{" "}
         <Link href="/contactus">contact us</Link> to discuss your requirements
         and ideas.
       </p>

@@ -59,7 +59,8 @@ $global-font: Verdana, Geneva, Tahoma, sans-serif;
   .home-section2-sub {
     display: flex;
     flex-direction: column;
-    gap: 2vh;
+    justify-content: center;
+    gap: 3vh;
     p {
       font-size: 11px;
     }
